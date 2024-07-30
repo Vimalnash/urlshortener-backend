@@ -21,7 +21,7 @@ const sendActivationEmail = async (email, token) => {
         html: `
         <h3>Activation Link</h3>
         <p>Click on the Below link / Copy and Pase it in your browser</p>
-        <a href="https://urlshortener-fsd.netlify.app//useractivation?activate=${token}">
+        <a href="https://urlshortener-fsd.netlify.app/useractivation?activate=${token}">
             Click to Activate to login
         </a>
         `
@@ -57,7 +57,7 @@ const resetPasswordEmail = async (email, token) => {
         html: `
         <h3>Reset Link</h3>
         <p>Click on the Below link / Copy and Pase it in your browser</p>
-        <a href="https://urlshortener-fsd.netlify.app//resetpasswordlink?auth=${token}">
+        <a href="https://urlshortener-fsd.netlify.app/resetpasswordlink?auth=${token}">
             Click to ResetPassword
         </a>
         `
