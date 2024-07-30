@@ -67,7 +67,6 @@ function getShortUrl(req) {
 
 // Create New Short URL
 function createNewShortUrl(req, currentDate) {
-    console.log(req.body, req.user._id, currentDate)
     return new SHORTURL({
         date: currentDate,
         userId: req.user._id,
